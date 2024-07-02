@@ -291,6 +291,10 @@ header figure {
   header figure {
     width: 30%;
   }
+
+  .map figure {
+    padding-bottom: 55%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -321,6 +325,14 @@ header figure {
 
   header figure {
     width: 30%;
+  }
+
+  .map figure {
+    padding-bottom: 47%;
+  }
+
+  .map iframe {
+    height: 450px;
   }
   
 }
@@ -499,4 +511,3 @@ header figure {
     page-break-after: avoid;
   }
 }
-
