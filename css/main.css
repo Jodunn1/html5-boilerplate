@@ -219,12 +219,66 @@ nav ul li {
   font-size: 1.125em;
 }
 
-.fontawesome-icons {
-  
+
+@media only screen and (min-width: 768px) {
+  /* Tablet styles here */
+  h1 {
+    font-size: 3em;
+    line-height: 3;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 3;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.875;
+  }
+
+  footer h4,
+  .contact h4 {
+    font-size: 1.5em;
+  }
+
+  footer p {
+    line-height: 1.5;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 0.875em;
+    line-height: 0.984;
+  }
 }
 
-.social-icons {
+@media only screen and (min-width: 1200px) {
+  /* Desktop styles here */
+  h1 {
+    font-size: 3.75em;
+  }
 
+  h2 {
+    font-size: 2.25em;
+  }
+
+  .faq h2,
+  .mission h2 {
+    font-size: 3em;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1.125;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 1.5;
+  }
+  
 }
 
 
