@@ -255,6 +255,11 @@ header figure {
   left: 0;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
@@ -331,10 +336,6 @@ header figure {
     padding-bottom: 47%;
   }
 
-  .map iframe {
-    height: 450px;
-  }
-  
 }
 
 
