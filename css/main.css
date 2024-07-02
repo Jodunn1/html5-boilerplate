@@ -178,8 +178,7 @@ footer {
 
 aside,
 .mission,
-.faq,
-.social-icons {
+.faq {
   background-color: #527158;
 }
 
@@ -258,6 +257,21 @@ header figure {
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
+}
+
+.social-icons i {
+  font-size: 1.313em;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #527158;
+  background-color: #527158;
+}
+
+.social-icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
