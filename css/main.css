@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 16px;
 }
 
@@ -355,6 +355,7 @@ div .form {
 .features h2 {
   padding-bottom: 60px;
   width: 100%;
+  line-height: 40px;
 }
 
 .fontawesome-icon {
@@ -382,6 +383,7 @@ div .form {
 .reviews article h3 {
   margin: 0;
   width: 55%;
+  line-height: 30px;
 }
 /* ==========================================================================
    Footer Section
@@ -616,6 +618,7 @@ footer .content-wrapper {
 
   .reviews article h3 {
     width: 100%;
+    padding-top: 0;
   }
 
 /* ==========================================================================
@@ -795,7 +798,7 @@ footer .content-wrapper {
   .faq h4,
   .faq p {
     font-size: 0.875em;
-    line-height: 15.75;
+    line-height: 15.75px;
   }
 
   header figure {
